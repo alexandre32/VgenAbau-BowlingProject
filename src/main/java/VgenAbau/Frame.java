@@ -7,14 +7,20 @@ public class Frame {
 
     int lancer[];
     int score;
-    int pointsSuplementaires;
 
     public Frame() {
         this.lancer = new int[2];
         score = 0;
-        pointsSuplementaires = 0;
         this.lancer[0] = 0;
         this.lancer[1] = 0;
+    }
+
+    void setLancer1(int s) {
+        this.lancer[0] = s;
+    }
+
+    void setLancer2(int s) {
+        this.lancer[1] = s;
     }
 
     boolean isStrike() {
@@ -33,14 +39,9 @@ public class Frame {
         score = s;
     }
 
-    int getPointsSuplementaires() {
-        return pointsSuplementaires;
+    void MAJScore (int s) {
+        score = score + s;
     }
-
-    void setPointsSuplementaires(int ps) {
-        pointsSuplementaires = ps;
-    }
-
 
 
 

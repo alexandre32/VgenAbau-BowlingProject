@@ -13,16 +13,4 @@ public class Partie {
         lancersComplementaires = new Frame();
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
 }

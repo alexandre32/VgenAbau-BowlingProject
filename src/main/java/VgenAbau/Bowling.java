@@ -25,7 +25,7 @@ public final class Bowling {
      */
     public static void main(final String[] args) {
         Bowling b = new Bowling();
-        b.toString();
+        System.out.println(b.toString());
         System.out.println("Hello World!");
     }
 }
